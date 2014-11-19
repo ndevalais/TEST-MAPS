@@ -66,18 +66,19 @@
         </script>
     </head>
     <body>
+    	<div id="map-canvas" style="width: 100%; height:90%"></div>
+    	<button onClick="mostrarUbicacion()"> UBICACION</button>
         <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-            <div id="map-canvas" style="width: 100%; height:90%"></div>
-    		<button onClick="mostrarUbicacion()"> UBICACION</button>
+            
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
+		<script type="text/javascript">
             app.initialize();
         </script>
     </body>
